@@ -127,7 +127,7 @@ button{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     z-index: -1;
 }
 .cards_header {
@@ -240,8 +240,9 @@ button{
     display: flex;
     margin-left: 70px;
     gap:20px;
-    width: 340px;
+    width: 130%;
     height: 500px;
+    gap: 30px;
 }
 .section_2_article{ 
     gap: 10px;
@@ -254,9 +255,11 @@ button{
 }
 
 .section_2_article_image_div>img{
-    width: 340px;
-    height: 380px;
+    width: 100%;
+    max-width: 340px;
+    max-height: 350px;
     z-index: -1;
+    object-fit: cover;
 }
 .section_2_article_image_flag{
     position: absolute;
@@ -443,6 +446,11 @@ display: flex;
     margin-top: -100px;
 }
 /* section 4 */
+.section_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .section_4_special_text{
     margin-top: 40px;
     display: flex;
@@ -491,12 +499,14 @@ display: flex;
     flex-direction: column;
 }
 .section_4_article_sub_1{
-    margin-left: -100px;
+    object-fit: cover;
     width: 30%;
     display: flex;
     flex-direction: column;
 }
 .section_4_article_sub_2{
+    object-fit: cover;
+
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -505,7 +515,7 @@ display: flex;
     max-width: 500px;
     height: 250px;
     z-index: -1;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 20px;
 }
 .section_4_article_div_main{
