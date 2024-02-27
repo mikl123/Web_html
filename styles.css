@@ -74,6 +74,11 @@ button{
     gap: 5px;
     height: 40px;
 }
+
+.imglogo{
+    width: 45px;
+    height: 45px;
+}
 .search_div_header > input{
     border: none;
     flex: 1;
